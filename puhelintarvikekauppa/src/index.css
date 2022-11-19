@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1 {
+  color: #de5499;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h3 {
+  color: #de5499;
+}
+
+a:link {
+  color: #f18f1f;
+}
+
+.item {
+  height: 350px;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  background-color: #264143;
+  margin-bottom: 0;
+  border-radius: 0;
+  
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #f2ebe9;
+  height: 100%;
+}
+
+footer {
+  background-color: #264143;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+.sidenav {
+  height: auto;
+  padding: 15px;
+}
+.row.content {
+  height:auto;
+} 
 }

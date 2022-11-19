@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+h1 {
+  color: #de5499;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  color: #de5499;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:link {
+  color: #f18f1f;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.item {
+  height: 350px;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  background-color: #264143;
+  margin-bottom: 0;
+  border-radius: 0;
+  
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #f2ebe9;
+  height: 100%;
+}
+
+footer {
+  background-color: #264143;
   color: white;
+  padding: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+.sidenav {
+  height: auto;
+  padding: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row.content {
+  height:auto;
+} 
 }
