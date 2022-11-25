@@ -24,6 +24,17 @@ a:link {
     padding: 20px;
 }
 
+table {
+    width: 80%;
+    margin: auto;
+}
+
+td, th {
+    border: 0px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
     background-color: #264143;
