@@ -10,6 +10,9 @@ h4 {
     display: flex;
     justify-content: center;
 }
+p   {
+    color: #ddd;
+}
 
 a:link {
     color: #f18f1f;
@@ -38,7 +41,7 @@ td, th {
 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
-    background-color: #264143;
+    background-color: #152b2d;
     margin-bottom: 0;
     border-radius: 0;
     padding-left: 17%;
@@ -52,14 +55,14 @@ td, th {
 
 .sidenav {
     padding-top: 100px;
-    background-color: #f2ebe9;
+    background-color: #264143;
     height: 200%;
     
    
 }
 
 footer {
-    background-color: #264143;
+    background-color: #152b2d;
     color: white;
     padding: 15px;
 
@@ -75,6 +78,10 @@ footer {
 .row.content {
     height:100%;
 } 
+}
+
+.col-sm-8{
+    background-color: #264143;
 }
 
 
