@@ -23,12 +23,11 @@ a:link {
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 450px}
+.row.content {height: 100%}
 
 .sidenav {
   padding-top: 20px;
   background-color: #f2ebe9;
-  height: 100%;
 }
 
 footer {
