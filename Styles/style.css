@@ -46,19 +46,21 @@ td, th {
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 500px}
+.row.content {height: 500px }
 
 .sidenav {
     padding-top: 100px;
     background-color: #f2ebe9;
-    height: 200%;  
+    height: 200%;
+    
+   
 }
 
 footer {
     background-color: #264143;
     color: white;
     padding: 15px;
-    width: 66.7%;
+
     
 }
 
@@ -69,12 +71,14 @@ footer {
     padding: 15px;
 }
 .row.content {
-    height:auto;
+    height:100%;
 } 
 }
 
 .carousel {
-    width: 66.7%;   
-    margin:auto;
+    
+    
 }
+
+
 
