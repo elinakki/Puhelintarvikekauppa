@@ -41,6 +41,8 @@ td, th {
     background-color: #264143;
     margin-bottom: 0;
     border-radius: 0;
+    padding-left: 17%;
+    padding-right: 17%;
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
