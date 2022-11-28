@@ -300,6 +300,11 @@ footer {
             border-radius: 10%;
             border: none;
         }
+
+        .well {
+            background-color: #152b2d;
+            border: none;
+        }
       }
 
 
