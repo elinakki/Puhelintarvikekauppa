@@ -1,5 +1,6 @@
 body {
     background-color: #264143;
+    color:rgb(165, 165, 165);
 }
 
 h1 {
@@ -14,6 +15,7 @@ h4 {
     display: flex;
     justify-content: center;
 }
+
 p   {
     color: #ddd;
 }
