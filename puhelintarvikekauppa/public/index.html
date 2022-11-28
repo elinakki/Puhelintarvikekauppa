@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="/Styles/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./index.js"></script>
 </head>
 
 <body>
@@ -102,30 +103,76 @@
       <p>Asiakaspalvelumme palvelee teitä vuorokauden jokaisena hetkenä, joten ethän epäröi ottaa yhteyttä mikäli tarvitset apua oikean tuotteen valinnassa tai ongelmatilanteissa.</p> 
       <hr>
       <h3>Päivän diili</h3>
-      <div class="col-sm-8">
-      <div class="product-hover">
-        <img src="#" alt="">
-        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+     
+      <!-- Item slider-->
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="carousel carousel-showmanymoveone slide" id="itemslider">
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="/Kuvat/kuulokkeet1.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Kuulokkeet</h4>
+              <h5 class="text-center">00,00€</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="/Kuvat/kuoret1.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Kuoret</h4>
+              <h5 class="text-center">00,00€</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="/Kuvat/kuulokkeet3.jpg" class="img-responsive center-block"></a>
+              <span class="badge">-10%</span>
+              <h4 class="text-center">Kuulokkeet </h4>
+              <h5 class="text-center">00,00€</h5>
+              <h6 class="text-center">00,00€</h6>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="/Kuvat/kuoret5.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Kuoret</h4>
+              <h5 class="text-center">00,00€</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="/Kuvat/laturi3.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Laturi</h4>
+              <h5 class="text-center">00,00€</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="/Kuvat/laturi4.jpg" class="img-responsive center-block"></a>
+              <h4 class="text-center">Laturi</h4>
+              <h5 class="text-center">00,00€</h5>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="slider-control">
+        <a class="left carousel-control" href="#itemslider" data-slide="prev"><img src="https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_402-512.png" alt="Left" class="img-responsive"></a>
+        <a class="right carousel-control" href="#itemslider" data-slide="next"><img src="http://pixsector.com/cache/81183b13/avcc910c4ee5888b858fe.png" alt="Right" class="img-responsive"></a>
       </div>
-
-        <h2><a href="single-product.html">Muokkaan tätä vielä :D</a></h2>
-
-      <div class="product-carousel-price">
-        <ins>€ 700.00</ins> <del>€ 100.00</del>
-      </div> 
-      <div class="product-hover">
-        <img src="#" alt="">
-        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
       </div>
-
-        <h2><a href="single-product.html">Muokkaan tätä vielä :D</a></h2>
-
-      <div class="product-carousel-price">
-        <ins>€ 700.00</ins> <del>€ 100.00</del>
-      </div> 
+    </div>
+  </div>
 </div>
+
 </div>
 
     <div class="col-sm-2 sidenav">
