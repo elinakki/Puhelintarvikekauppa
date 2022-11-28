@@ -294,6 +294,12 @@ footer {
           transform: translate3d(0, 0, 0);
           left: 0;
         }
+
+        button {
+            background-color: #152b2d;
+            border-radius: 10%;
+            border: none;
+        }
       }
 
 
