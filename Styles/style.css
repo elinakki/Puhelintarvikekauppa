@@ -89,7 +89,7 @@ footer {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #264143;
+    background-color: #152b2d;
     padding: 15px;
     border: none;
     color: rgb(177, 177, 177);
@@ -126,7 +126,7 @@ footer {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color:#264143;color: rgb(255, 255, 255);}
+  .dropdown:hover .dropbtn {background-color:#152b2d;color: rgb(255, 255, 255);}
 
     #slider-text{
         padding-top: 40px;
