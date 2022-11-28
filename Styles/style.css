@@ -305,6 +305,12 @@ footer {
             background-color: #152b2d;
             border: none;
         }
+
+        .btn {
+            background-color: #152b2d;
+            border: none;
+            margin: 5px;
+        }
       }
 
 
