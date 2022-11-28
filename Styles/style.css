@@ -23,8 +23,12 @@ a:link {
 }
 
 .item {
-    height: 350px;
+    
+    max-height: 100%;
+    
 }
+
+
 
 .container {
     width: 80%;
